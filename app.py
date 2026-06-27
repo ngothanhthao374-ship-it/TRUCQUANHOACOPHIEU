@@ -15,7 +15,7 @@ st.set_page_config(
     layout="wide"
 )
 st.image("logo.jpg")
-st.title("📈 PHÂN TÍCH GIÁ CỔ PHIẾU VÀ KIỂM ĐỊNH MANN-KENDALL")
+st.title("📈 PHÂN TÍCH GIÁ CỔ PHIẾU VÀ KIỂM ĐỊNH MANN-KENDALL_ĐỀ TÀI 3_ NGÔ THANH THẢO")
 
 # =============================
 # SIDEBAR
@@ -144,7 +144,7 @@ if st.sidebar.button("Phân tích"):
         mav=(10,20),
         volume=True,
         style="yahoo",
-figsize=(12,6),
+    figsize=(12,6),
         title=f"{ticker}",
         returnfig=True
     )
